@@ -13,6 +13,7 @@ setup(
         "duckdb",
         "pymysql",
         "google-cloud-bigquery",  # <-- Added dependency
+        "snowflake-connector-python"  # Added dependency
     ],
     entry_points={"console_scripts": ["data-eng-cli = data_eng_cli.cli:main"]},
 )
