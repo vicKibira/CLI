@@ -1,0 +1,8 @@
+click
+pandas
+duckdb
+mysql-connector-python
+sqlalchemy
+requests
+google-cloud-bigquery
+snowflake-connector-python
