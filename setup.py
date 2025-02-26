@@ -8,11 +8,11 @@ setup(
         "click",
         "pandas",
         "requests",
-        "pyyaml"
+        "pyyaml",
+        "sqlalchemy",
+        "duckdb",
+        "pymysql",
+        "google-cloud-bigquery",  # <-- Added dependency
     ],
-    entry_points={
-        "console_scripts": [
-            "data-eng-cli = data_eng_cli.cli:main"
-        ]
-    },
+    entry_points={"console_scripts": ["data-eng-cli = data_eng_cli.cli:main"]},
 )
