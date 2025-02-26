@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "data-eng-cli = data_eng_cli.cli:cli"
+            "data-eng-cli = data_eng_cli.cli:main"
         ]
     },
 )
